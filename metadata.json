@@ -1,0 +1,6 @@
+{
+  "name": "Nova Fresh - موخيتو طبيعي وانتعاش فائق",
+  "description": "الموقع الرسمي لمشروبات موخيتو نوفا فريش الطبيعية المنعشة بنكهات الفراولة، الباشن فروت، وبلو كوراساو مع خدمة توريد جملة للسوبرماركت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

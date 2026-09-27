@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Cairo', 'Tajawal', system-ui, -apple-system, sans-serif;
+  }
+}
+
+:root {
+  --color-mint: #2ECC71;
+  --color-citrus: #F1C40F;
+  --color-strawberry: #E74C3C;
+  --color-curacao: #3498DB;
+}
+
+/* Custom styling for smooth transitions and backdrop blur */
+.glass-nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Hide scrollbar for tabs while maintaining touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
